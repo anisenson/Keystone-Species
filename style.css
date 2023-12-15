@@ -1,0 +1,46 @@
+body { 
+    background-color: #e0e0e0;
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  .navbar {
+      background-color: #034367;
+      font-size: 20px;
+    }
+  
+  .nav-link {
+      margin: 5px;
+      color: white;
+      font-weight: 500;
+  }
+  
+  .nav-link:hover {
+      color: #878787;
+  }
+  
+  
+  
+  .bg-hero-image {
+    background-image: url(img/underwarer.jpg);
+    background-position: center center;
+    height: 300px;
+  }
+  
+  /* card style */
+  .customborder {
+      border: 2px solid #034367;
+  }
+  
+  .cardimg {
+      border: 2px solid #034367;
+      border-radius: 2%;
+  }     
+  
+  .card:target {
+      box-shadow: 5px 5px 5px black;
+      border-color: #034367;
+      animation: ease-in-out;
+      opacity: 4;
+  }
+  
+  /* card style */
